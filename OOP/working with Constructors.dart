@@ -12,6 +12,9 @@ void main() {
   // student1.id = 181;
   // student1.name = 'Majharul';
   student1.Display();
+
+  var student2 = Student.myAnotherCustomConstructor(121, 'name');
+  student2.Display();
 }
 
 class Student {
@@ -35,17 +38,18 @@ class Student {
   }
 */
 
-//Named Constructor
-
   Student.myCustomConstructor() {
+    //Named Constructor
     print('This is my custom constructor');
   }
 
-  Student.myAnotherCustomConstructor() {
-    print('This is my another custom Constructor');
-  }
+  Student.myAnotherCustomConstructor(this.id, this.name); //Named Constructor
 
   void Display() {
     print('Your name is : ${this.name} & Your id is : ${this.id} \n');
+
+
   }
+
+  
 }
