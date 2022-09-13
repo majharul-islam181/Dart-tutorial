@@ -48,7 +48,6 @@ class Student {
   void Display() {
     print('Your name is : ${this.name} & Your id is : ${this.id} \n');
 
-
   }
 
   
