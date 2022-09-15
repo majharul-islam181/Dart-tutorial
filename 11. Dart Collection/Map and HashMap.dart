@@ -5,7 +5,11 @@
 
 void main() {
   //Method 1: Using Literal
-  Map<String, int> countryDailingCode = {'usa': 1, 'bd': 11, 'india': 22};
+  Map<String, int> countryDailingCode = {
+    'usa': 1, 
+    'bd': 11,
+    'india': 22
+    };
 
   //Method 2 : Using Constructor
   Map<String, String> fruits = Map();
